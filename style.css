@@ -4,15 +4,30 @@ body {
     font-family: 'Raleway', sans-serif;
     padding:0;
     margin:0 auto;
-    background-color: #B0E0E6;
+    background-color: black;
 }
 
-.album-list ul {
-display:flex;
-flex-direction: row;
-justify-content: space-around;
+.album-list {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 190px;
 }
 
-li {
-    list-style-type: none;
+.numero1, .numero2, .numero3, .numero4 {
+    margin:auto;
+    margin-top:24px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin:30px;
 }
+
+.titre1, .titre2, .titre3, .titre4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tracklist a{
+    text-decoration: none;
+}
+
